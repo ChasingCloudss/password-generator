@@ -61,6 +61,8 @@ h4 {
 */
 
 .display-section {
+  width: 100%;
+  flex-wrap: wrap;
   border-top: 1px solid gray;
   display: flex;
   justify-content: space-between;
