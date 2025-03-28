@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="hero-section">
+                <h1 class="dark-gy-color">Generate a <span class="gr-color">random password</span></h1>
+                <h4 class="gy-color">Never use a random password again.</h4>
+            </div>
+            <input id="characters-input"type="number" placeholder="Number of characters" required/>
+            <p id="error-display">Error! Input character string</p>
+            <button id="password-button" onclick="generatePassword()">Generate passwords</button>
+            <div>
+            <div class="display-section">
+                <button onclick="copyToClipboard1()" id="password1" class="password-display"></button>
+                <button onclick="copyToClipboard2()" id="password2" class="password-display"></button>
+            </div>
+        <script src="index.js"></script>
+    </body>
+</html>

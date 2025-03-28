@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  height: 100vh;
+  font-family: "Karla", sans-serif;
+}
+
+.hero-section{
+  margin-bottom: 50px;
+} 
+
+h1 {
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+
+h4 {
+  display: block;
+  color: red;
+  margin-top: 1px;
+  padding: 0px;
+}
+
+#password-button{
+  display: block;
+  background: #10B981;
+  cursor: pointer;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 9px 17px 9px 15px;
+}
+
+#error-display {
+  display: none;
+  color: red;
+  margin-bottom: 10px
+}
+
+#characters-input {
+    margin-bottom: 10px;
+}
+/* CSS HEX
+--charcoal: #303D4Fff;
+--hookers-green: #3A7863ff;
+--celestial-blue: #22A4F4ff;
+--raisin-black: #2D2B3Cff;
+--mint: #10B981ff;
+--honeydew: #ECFDF5ff;
+*/
+
+.display-section {
+  border-top: 1px solid gray;
+  display: flex;
+  justify-content: space-between;
+}
+
+#password-button:hover {
+  background: #3A7863ff;
+}
+
+.password-display {
+  display: none;
+  cursor: pointer;
+  color: #10B981;
+  margin-top: 40px;
+  background-color: #273549;
+  border: none;
+  padding: 7px 30px;
+  border-radius: 7px;
+}
+
+.gr-color {
+  color: #10B981;
+}
+
+.gy-color {
+  color: #6B7280;
+}
+
+.dark-gy-color {
+  color: #273549;
+} 
+
+.container {
+    width: 400px;
+    background: #ECFDF5;
+    padding: 30px 20px;
+}
